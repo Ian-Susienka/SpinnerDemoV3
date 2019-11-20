@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SpinnerDemoV3</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="numbers">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+
+    <string-array name="Ariports">
+        <item>DAB</item>
+        <item>ATL</item>
+        <item>PHX</item>
+        <item>DET</item>
+        <item>SMF</item>
+    </string-array>
+</resources>
