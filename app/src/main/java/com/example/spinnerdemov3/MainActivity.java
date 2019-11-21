@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         Spinner spinner = findViewById(R.id.spinner1);
         Spinner spinner2 = findViewById(R.id.Airports);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.numbers, android.R.layout.simple_spinner_item);
+                R.array.DepartureAirports, android.R.layout.simple_spinner_item);
         ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
-                R.array.Ariports, android.R.layout.simple_spinner_item);
+                R.array.ArivalAirports, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
