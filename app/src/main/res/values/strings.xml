@@ -2,17 +2,11 @@
     <string name="app_name">SpinnerDemoV3</string>
     <string name="action_settings">Settings</string>
 
-<<<<<<< HEAD
     <string-array name="DepartureAirports">
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
-=======
-    <string-array name="numbers">
         <item>FUK</item>
         <item>SEX</item>
         <item>ABC</item>
->>>>>>> d95b0b20b740bfc248cbbace795c0b1faeb37f08
+
     </string-array>
 
     <string-array name="ArivalAirports">
