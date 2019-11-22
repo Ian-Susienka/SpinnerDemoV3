@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">SpinnerDemoV3</string>
     <string name="action_settings">Settings</string>
+    <string name="textview">TextView</string>
 
     <string-array name="DepartureAirports">
         <item>FUK</item>
