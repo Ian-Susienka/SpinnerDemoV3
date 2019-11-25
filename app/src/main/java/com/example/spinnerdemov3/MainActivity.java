@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     double cPrice1 = 0;
     double cPrice2 = 0;
     double cPrice3 = 0;
-    double cPrice4 = 0;
-    double cPrice5 = 0;
-    double cPrice6 = 0;
+    double cPrice4 = 1102;
+    double cPrice5 = 1041;
+    double cPrice6 = 1160.20;
     double cPrice7 = 0;
     double cPrice8 = 0;
     double cPrice9 = 0;
