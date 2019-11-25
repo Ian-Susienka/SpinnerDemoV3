@@ -9,10 +9,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+
 
     //Airport Strings
     String aTemp1 = "FUK";
@@ -23,10 +25,23 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     String aTemp6 = "PHX";
 
 
+    EditText numPass;
+    int temp1;
+
+    public EditText getNumPass() {
+
+        return numPass;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //numPass = findViewById(R.id.editText);
+        //numPass = Integer.parseInt(editText);
+
+        //temp1 = (int) numPass.ge;
 
         Spinner spinner = findViewById(R.id.spinner1);
         Spinner spinner2 = findViewById(R.id.Airports);
@@ -83,6 +98,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         }
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
