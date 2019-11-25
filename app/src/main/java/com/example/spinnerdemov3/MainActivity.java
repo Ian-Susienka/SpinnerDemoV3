@@ -14,6 +14,15 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    //Airport Strings
+    String aTemp1 = "FUK";
+    String aTemp2 = "SEX";
+    String aTemp3 = "ABC";
+    String aTemp4 = "DAB";
+    String aTemp5 = "ATL";
+    String aTemp6 = "PHX";
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +41,47 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         spinner2.setAdapter(adapter2);
         spinner2.setOnItemSelectedListener(this);
 
+        //Spinner 1 item 1 combos
+        if (spinner.getSelectedItem().toString() == aTemp1 && spinner2.getSelectedItem().toString() == aTemp4)
+        {
 
+        }
+        if (spinner.getSelectedItem().toString() == aTemp1 && spinner2.getSelectedItem().toString() == aTemp5)
+        {
+
+        }
+        if (spinner.getSelectedItem().toString() == aTemp1 && spinner2.getSelectedItem().toString() == aTemp6)
+        {
+
+        }
+
+        //Spinner 1 item 2 combos
+        if (spinner.getSelectedItem().toString() == aTemp2 && spinner2.getSelectedItem().toString() == aTemp4)
+        {
+
+        }
+        if (spinner.getSelectedItem().toString() == aTemp2 && spinner2.getSelectedItem().toString() == aTemp5)
+        {
+
+        }
+        if (spinner.getSelectedItem().toString() == aTemp2 && spinner2.getSelectedItem().toString() == aTemp6)
+        {
+
+        }
+
+        //Spinner 1 item 3 combos
+        if (spinner.getSelectedItem().toString() == aTemp3 && spinner2.getSelectedItem().toString() == aTemp4)
+        {
+
+        }
+        if (spinner.getSelectedItem().toString() == aTemp3 && spinner2.getSelectedItem().toString() == aTemp5)
+        {
+
+        }
+        if (spinner.getSelectedItem().toString() == aTemp3 && spinner2.getSelectedItem().toString() == aTemp6)
+        {
+
+        }
     }
 
     @Override
