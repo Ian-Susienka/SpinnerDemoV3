@@ -24,22 +24,37 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     String aTemp5 = "ATL";
     String aTemp6 = "PHX";
 
+    double finalPrice = 0;
+
+    double cPrice1 = 0;
+    double cPrice2 = 0;
+    double cPrice3 = 0;
+    double cPrice4 = 0;
+    double cPrice5 = 0;
+    double cPrice6 = 0;
+    double cPrice7 = 0;
+    double cPrice8 = 0;
+    double cPrice9 = 0;
+
 
     EditText numPass;
+
     int temp1;
+
+    /*
 
     public EditText getNumPass() {
 
         return numPass;
-    }
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //numPass = findViewById(R.id.editText);
-        //numPass = Integer.parseInt(editText);
+        numPass = findViewById(R.id.editText);
+        temp1 = Integer.parseInt(numPass.getText().toString());
 
         //temp1 = (int) numPass.ge;
 
