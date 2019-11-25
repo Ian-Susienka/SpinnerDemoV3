@@ -4,16 +4,16 @@
     <string name="textview">TextView</string>
 
     <string-array name="DepartureAirports">
-        <item>FUK</item>
-        <item>SEX</item>
-        <item>ABC</item>
+        <item>FUK</item> // Fukuoka, Japan, Itazuke Air Base
+        <item>SEX</item> // Semback, germany
+        <item>ABC</item> // Albacete, Spain
 
     </string-array>
 
     <string-array name="ArivalAirports">
-        <item>DAB</item>
-        <item>ATL</item>
-        <item>PHX</item>
+        <item>DAB</item> // Daytona Beach, Florida
+        <item>ATL</item> // Atlanta, Gerogia
+        <item>PHX</item> // Phoneix, Arizona
     </string-array>
 
 
