@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         numPass = findViewById(R.id.editText);
         //temp1 = Integer.parseInt(numPass.getText().toString());
-        
+
         //temp1 = numPass;
 
         //temp1 = (int) numPass.ge;
