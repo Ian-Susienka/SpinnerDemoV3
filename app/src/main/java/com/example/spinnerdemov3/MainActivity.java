@@ -11,10 +11,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    TextView priceText;
 
     //Airport Strings
     String aTemp1 = "FUK";
@@ -24,22 +26,39 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     String aTemp5 = "ATL";
     String aTemp6 = "PHX";
 
+    double finalPrice = 0;
+
+    double cPrice1 = 0;
+    double cPrice2 = 0;
+    double cPrice3 = 0;
+    double cPrice4 = 1102;
+    double cPrice5 = 1041;
+    double cPrice6 = 1160.20;
+    double cPrice7 = 0;
+    double cPrice8 = 0;
+    double cPrice9 = 0;
+
 
     EditText numPass;
+
     int temp1;
+
+    /*
 
     public EditText getNumPass() {
 
         return numPass;
-    }
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //numPass = findViewById(R.id.editText);
-        //numPass = Integer.parseInt(editText);
+        priceText = findViewById(R.id.textView);
+
+        numPass = findViewById(R.id.editText);
+        temp1 = Integer.parseInt(numPass.getText().toString());
 
         //temp1 = (int) numPass.ge;
 
@@ -73,15 +92,18 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         //Spinner 1 item 2 combos
         if (spinner.getSelectedItem().toString() == aTemp2 && spinner2.getSelectedItem().toString() == aTemp4)
         {
-
+            finalPrice = cPrice4 * temp1;
+            priceText.setText(String.valueOf(finalPrice));
         }
         if (spinner.getSelectedItem().toString() == aTemp2 && spinner2.getSelectedItem().toString() == aTemp5)
         {
-
+            finalPrice = cPrice5 * temp1;
+            priceText.setText(String.valueOf(finalPrice));
         }
         if (spinner.getSelectedItem().toString() == aTemp2 && spinner2.getSelectedItem().toString() == aTemp6)
         {
-
+            finalPrice = cPrice6 * temp1;
+            priceText.setText(String.valueOf(finalPrice));
         }
 
         //Spinner 1 item 3 combos

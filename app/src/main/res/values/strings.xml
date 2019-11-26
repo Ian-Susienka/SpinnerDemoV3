@@ -5,7 +5,7 @@
 
     <string-array name="DepartureAirports">
         <item>FUK</item> // Fukuoka, Japan, Itazuke Air Base
-        <item>SEX</item> // Semback, germany
+        <item>SEX</item> // Sembach, germany
         <item>ABC</item> // Albacete, Spain
 
     </string-array>
