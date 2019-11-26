@@ -11,10 +11,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    TextView priceText;
 
     //Airport Strings
     String aTemp1 = "FUK";
@@ -53,6 +55,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        priceText = findViewById(R.id.textView);
+
         numPass = findViewById(R.id.editText);
         temp1 = Integer.parseInt(numPass.getText().toString());
 
@@ -88,15 +92,18 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         //Spinner 1 item 2 combos
         if (spinner.getSelectedItem().toString() == aTemp2 && spinner2.getSelectedItem().toString() == aTemp4)
         {
-
+            finalPrice = cPrice4 * temp1;
+            priceText.setText(String.valueOf(finalPrice));
         }
         if (spinner.getSelectedItem().toString() == aTemp2 && spinner2.getSelectedItem().toString() == aTemp5)
         {
-
+            finalPrice = cPrice5 * temp1;
+            priceText.setText(String.valueOf(finalPrice));
         }
         if (spinner.getSelectedItem().toString() == aTemp2 && spinner2.getSelectedItem().toString() == aTemp6)
         {
-
+            finalPrice = cPrice6 * temp1;
+            priceText.setText(String.valueOf(finalPrice));
         }
 
         //Spinner 1 item 3 combos
