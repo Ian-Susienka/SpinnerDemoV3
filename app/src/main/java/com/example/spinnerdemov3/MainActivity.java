@@ -14,6 +14,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     TextView priceText;
@@ -58,7 +60,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         priceText = findViewById(R.id.textView);
 
         numPass = findViewById(R.id.editText);
-        temp1 = Integer.parseInt(numPass.getText().toString());
+        //temp1 = Integer.parseInt(numPass.getText().toString());
+        
+        //temp1 = numPass;
 
         //temp1 = (int) numPass.ge;
 
