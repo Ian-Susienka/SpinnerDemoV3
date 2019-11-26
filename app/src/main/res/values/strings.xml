@@ -16,6 +16,13 @@
         <item>PHX</item> // Phoneix, Arizona
     </string-array>
 
+/* Flight Prices
+    Fukuoka, Japan(FUK) - Daytona Beach, Florida(DAB):
+    Fukuoka, Japan(FUK) - Atlanta, Gerogia(ATL):
+    Fukuoka, Japan(FUK) - Phoneix, Arizona(PHX):
 
+
+
+    */
 
 </resources>
